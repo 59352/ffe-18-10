@@ -1,0 +1,58 @@
+.box-direction {
+	display: flex;
+	flex-direction: row-reverse;
+	font-family: 'Open Sans', sans-serif;
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	background-color: green;
+	
+	
+}
+
+.box-align-items {
+	display: flex;
+	align-items: flex-end;
+	font-family: 'Open Sans', sans-serif;
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	background-color: purple;
+	
+}
+
+.box-justify-content {
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Open Sans', sans-serif;
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	background-color: pink;
+}
+
+.box-align-content {
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	font-family: 'Open Sans', sans-serif;
+	margin: 50px auto;
+	width: 500px;
+	height: 500px;
+	background-color: silver;
+	
+    
+}
+
+.box {
+	background-color: lightblue;
+	border: 1px solid black;
+	text-align: center;
+	margin: 10px;
+	display: inline;
+	white-space: wrap;
+	text-overflow: ellipsis;
+	font-size: 5px; 
+	
+}
+
